@@ -1,0 +1,22 @@
+.parent-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.parent-card > div{
+    max-width:350px;
+}
+
+.bg-pri{
+    background-image: linear-gradient(90deg, #19D3AE -38.67%, #0FCFEC 129.78%);
+}
+.bg-sec{
+    background-color: #3A4256;
+}
+
+.text-pri{
+    color:  #19D3AE;
+}
+.text-sec{
+    color: #3A4256;
+}
